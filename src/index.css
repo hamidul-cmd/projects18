@@ -1,0 +1,138 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  font-family: "Manrope", sans-serif;
+}
+@theme {
+  --color-purple-50: #5700ff;
+  --color-purple-60: #7833ff;
+  --color-purple-70: #9a66ff;
+  --color-purple-80: #bc99ff;
+  --color-purple-90: #decffc;
+  --color-purple-95: #eee5ff;
+  --color-purple-97: #f5f0ff;
+  --color-purple-98: #fcfaff;
+
+  --color-gray-10: #5700ff;
+  --color-gray-20: #7833ff;
+  --color-gray-30: #9a66ff;
+  --color-gray-40: #bc99ff;
+  --color-gray-50: #decffc;
+  --color-gray-60: #eee5ff;
+  --color-gray-70: #f5f0ff;
+  --color-gray-80: #fcfaff;
+
+  --color-peach-85: #5700ff;
+  --color-peach-90: #7833ff;
+  --color-peach-92: #9a66ff;
+  --color-peach-95: #bc99ff;
+  --color-peach-96: #decffc;
+  --color-peach-97: #eee5ff;
+  --color-peach-98: #f5f0ff;
+  --color-peach-99: #fcfaff;
+
+  --color-other-purple: #9e00ff;
+  --color-other-green: #5edc11;
+  --color-other-yellow: #ffce22;
+  --color-other-orange: #ff7222;
+  --color-other-pink: #ff22e9;
+  --color-other-blue: #2260ff;
+
+  --text-67: 67px;
+  --text-64: 64px;
+  --text-15: 15px;
+  --text-51: 51px;
+  --text-50: 50px;
+  --text-58: 58px;
+  --text-38: 38px;
+  --text-28: 28px;
+  --text-22: 22px;
+  --text-26: 26px;
+  --text-12: 12px;
+  --text-78: 78px;
+  --text-40: 40px;
+  --text-42: 42px;
+  --text-60: 60px;
+  --text-54: 54px;
+  --text-52: 52px;
+  --text-34: 34px;
+  --text-44: 44px;
+
+  --radius-20: 20px;
+  --radius-10: 10px;
+  --radius-14: 14px;
+  --radius-16: 16px;
+
+  --spacing-0_5: 2px;
+  --spacing-1_4: 5px;
+  --spacing-1_5: 6px;
+  --spacing-1_9: 9px;
+  --spacing-2_5: 10px;
+  --spacing-2_6: 11px;
+  --spacing-3_4: 13px;
+  --spacing-3_5: 14px;
+  --spacing-3_6: 15px;
+  --spacing-4_5: 16px;
+  --spacing-4_7: 17px;
+  --spacing-4_8: 18px;
+  --spacing-4_9: 19px;
+  --spacing-5_3: 23px;
+  --spacing-6_5: 25px;
+  --spacing-6_6: 26px;
+  --spacing-6_7: 28px;
+  --spacing-6_9: 29px;
+  --spacing-7_5: 30px;
+  --spacing-8_5: 34px;
+  --spacing-10_5: 42px;
+  --spacing-10_6: 44px;
+  --spacing-40_2: 162px;
+  --spacing-12_5: 50px;
+  --spacing-12_6: 54px;
+  --spacing-14_5: 60px;
+  --spacing-14_7: 62px;
+  --spacing-16_5: 70px;
+  --spacing-16_6: 72px;
+  --spacing-24_5: 100px;
+  --spacing-24_6: 115px;
+  --spacing-24_7: 120px;
+  --spacing-33: 132px;
+  --spacing-33: 132px;
+  --spacing-36_5: 150px;
+  --spacing-36_6: 162px;
+  --spacing-20_2: 82px;
+
+  --tracking-3: -3%;
+
+  --leading-110: 110%;
+  --leading-120: 120%;
+  --leading-140: 140%;
+  --leading-150: 150%;
+  --leading-160: 160%;
+  --leading-27: 27px;
+  --leading-auto: auto;
+
+  --container-wrapper: 1920px;
+  --breakpoint-ll: 780px;
+  --breakpoint-ll2: 1000px;
+  --breakpoint-xll: 1440px;
+  --breakpoint-3xl: 1440px;
+
+  --shadow-ss2: 0px 0px 0px 4px #fafafa;
+  --shadow-ss1: 0px 0px 0px 6px #fafafa;
+  --ease-bounce: cubic-bezier(0.04, 1.25, 1, 1);
+  --tracking-1_5: -1.5%;
+  --leading-full: 100%;
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.l-150 {
+  line-height: 150%;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+header ul li a.active {
+  color: var(--color-primary);
+}
