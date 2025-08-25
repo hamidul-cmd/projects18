@@ -13,23 +13,23 @@
   --color-purple-97: #f5f0ff;
   --color-purple-98: #fcfaff;
 
-  --color-gray-10: #5700ff;
-  --color-gray-20: #7833ff;
-  --color-gray-30: #9a66ff;
-  --color-gray-40: #bc99ff;
-  --color-gray-50: #decffc;
-  --color-gray-60: #eee5ff;
-  --color-gray-70: #f5f0ff;
-  --color-gray-80: #fcfaff;
+  --color-gray-10: #191919;
+  --color-gray-20: #333333;
+  --color-gray-30: #4C4C4C;
+  --color-gray-40: #666666;
+  --color-gray-50: #808080;
+  --color-gray-60: #999999;
+  --color-gray-70: #B3B3B3;
+  --color-gray-80: #CCCCCC;
 
-  --color-peach-85: #5700ff;
-  --color-peach-90: #7833ff;
-  --color-peach-92: #9a66ff;
-  --color-peach-95: #bc99ff;
-  --color-peach-96: #decffc;
-  --color-peach-97: #eee5ff;
-  --color-peach-98: #f5f0ff;
-  --color-peach-99: #fcfaff;
+  --color-peach-85: #E1DBD1;
+  --color-peach-90: #EBE7E0;
+  --color-peach-92: #EEEBE5;
+  --color-peach-95: #F5F3F0;
+  --color-peach-96: #F7F6F3;
+  --color-peach-97: #F9F8F6;
+  --color-peach-98: #FBFAF9;
+  --color-peach-99: #FDFDFC;
 
   --color-other-purple: #9e00ff;
   --color-other-green: #5edc11;
@@ -115,7 +115,7 @@
   --breakpoint-ll: 780px;
   --breakpoint-ll2: 1000px;
   --breakpoint-xll: 1440px;
-  --breakpoint-3xl: 1440px;
+  --breakpoint-3xl: 1920px;
 
   --shadow-ss2: 0px 0px 0px 4px #fafafa;
   --shadow-ss1: 0px 0px 0px 6px #fafafa;
@@ -130,9 +130,16 @@
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #EEEBE5;
 }
 
-header ul li a.active {
-  color: var(--color-primary);
+#header ul li a.active {
+  background-color: #EEEBE5;
 }
+
+@media screen and (min-width: 780px) {
+  #header ul li a.active {
+    background-color: #F5F3F0;
+  }
+}
+
