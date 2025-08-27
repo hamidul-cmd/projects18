@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Primarybtn({ path, text, svg }) {
   return (
     <>
-      <Link to={path} className="flex bg-purple-50 py-3.5 px-4 text-peach-99 gap-2 items-center text-sm font-medium l-150 rounded-lg 3xl:px-4.8 3xl:py-4 3xl:text-lg">
+      <Link to={path} className="flex bg-purple-50 py-3.5 px-4 text-peach-99 gap-2 items-center text-sm font-medium l-150 rounded-lg 3xl:px-4.8 3xl:py-4 3xl:text-lg w-fit">
         {svg && (
           <div>
             <svg
